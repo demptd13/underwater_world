@@ -148,6 +148,11 @@ main {
     font-size: 3.5em;
   }
 }
+@media (max-width: 375px) {
+  .header__title {
+    font-size: 3.1em;
+  }
+}
 .header__subtitle {
   font-family: "Kdam Thmor Pro", sans-serif;
   width: 50%;
@@ -164,7 +169,7 @@ main {
 @media (max-width: 780px) {
   .header__subtitle {
     font-size: 0.9em;
-    width: 70%;
+    width: 80%;
   }
 }
 @media (max-width: 620px) {
